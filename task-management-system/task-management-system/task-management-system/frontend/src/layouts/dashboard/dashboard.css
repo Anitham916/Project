@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Main Layout */
+.app-main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.app-main-left-container {
+    width: 250px;
+    background-color: #ffffff; /* Sidebar background color */
+    color: #ffffff;
+    padding: 20px;
+}
+
+.app-main-right-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f5f7;
+}
+
+/* Welcome Section */
+.welcome-main-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.welcome-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ffae00, #63efff); /* Gradient for the welcome section */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.welcome-left-container {
+    max-width: 50%;
+}
+
+.mng-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mng-para {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.explore-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #00e1ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+
+.welcome-right-container {
+    max-width: 40%;
+}
+
+.welcome-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Dashboard Feature Cards */
+.dashboard-features-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    flex: 1 1 30%;
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card h3 {
+    font-size: 18px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.dashboard-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.dashboard-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: darkcyan;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-list-item {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.deadline-date {
+    color: crimson;
+    font-weight: bold;
+}
+
+.quote-card {
+    background: linear-gradient(to right, #00e5ff,white);
+    color: white;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+/* Dashboard Stats */
+.dashboard-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
